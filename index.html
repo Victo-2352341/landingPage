@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LaBonnePaie – Vérifiez vos fiches de paie</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1 class="logo">LaBonnePaie</h1>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h2>Vérifiez vos fiches de paie,<br><span>récupérez votre dû en un clic.</span></h2>
+      <p class="hero-sub">
+        Comprenez enfin votre fiche de paie et détectez les erreurs qui vous coûtent de l’argent.
+      </p>
+    </div>
+  </section>
+
+  <!-- VIDEO PLACEHOLDER -->
+  <section class="video-section">
+    <div class="container">
+      <div class="video-placeholder">
+        <p>🎥 Vidéo de présentation à venir</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRELAUNCH -->
+  <section class="prelaunch">
+    <div class="container">
+      <h3>🚀 LaBonnePaie arrive bientôt</h3>
+      <p>
+        Un salarié sur trois subit des erreurs de paie sans le savoir.
+        Très bientôt, vous pourrez vérifier votre fiche en quelques secondes
+        et découvrir si vous touchez vraiment ce qui vous revient.
+      </p>
+
+      <h4>🔔 Soyez prévenu dès le lancement</h4>
+      <p class="muted">
+        👉 Aucune publicité. Pas de spam. Juste le jour J, dans votre boîte mail.
+      </p>
+
+      <form id="emailForm" class="email-form">
+        <input type="email" name="email" placeholder="Votre adresse email" required />
+        <button type="submit">M’avertir</button>
+      </form>
+
+      <p id="formMessage" class="form-message"></p>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="why">
+    <div class="container">
+      <h3>💼 Pourquoi LaBonnePaie ?</h3>
+      <p>
+        Chaque mois, des milliers de salariés reçoivent une fiche de paie sans jamais savoir si tout est correct.
+        <strong>LaBonnePaie change la donne</strong> : en quelques secondes, votre document est vérifié de A à Z.
+      </p>
+    </div>
+  </section>
+
+  <!-- HOW -->
+  <section class="how">
+    <div class="container">
+      <h3>⚙️ Comment ça marche ?</h3>
+
+      <div class="steps">
+        <div class="step">
+          <span>1</span>
+          <h4>Déposez votre fiche de paie</h4>
+          <p>Importez votre document PDF en toute sécurité.</p>
+        </div>
+
+        <div class="step">
+          <span>2</span>
+          <h4>Analyse complète</h4>
+          <p>Heures, primes, cotisations et montants sont inspectés automatiquement.</p>
+        </div>
+
+        <div class="step">
+          <span>3</span>
+          <h4>Rapport clair et actionnable</h4>
+          <p>
+            Résumé simple + message prêt à envoyer à votre service RH si une erreur est détectée.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <div class="container">
+      <h3>✨ Fonctionnalités clés</h3>
+
+      <ul class="feature-list">
+        <li>Détection automatique des erreurs</li>
+        <li>Vérification des heures, primes et cotisations</li>
+        <li>Rapport clair + recommandations</li>
+        <li>Email automatique pour le service RH</li>
+        <li>Historique et comparaison des fiches</li>
+        <li>Sécurisation et confidentialité des données</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- QUOTES -->
+  <section class="quotes">
+    <div class="container">
+      <h3>⚡️ Le saviez-vous ?</h3>
+
+      <blockquote>« 1 salarié sur 3 découvre une erreur sur sa fiche de paie. »</blockquote>
+      <blockquote>« 67 % des salariés ne comprennent pas complètement leur fiche de paie. »</blockquote>
+      <blockquote>« La France possède l’un des systèmes de paie les plus complexes du monde. »</blockquote>
+      <blockquote>« Des milliers d’heures supplémentaires ne sont jamais payées. »</blockquote>
+    </div>
+  </section>
+
+  <!-- TRUST -->
+  <section class="trust">
+    <div class="container">
+      <h3>🔐 Vos données sont protégées</h3>
+
+      <div class="trust-grid">
+        <div class="trust-item">🔒 Données cryptées</div>
+        <div class="trust-item">🗑️ Aucun stockage sans votre accord</div>
+        <div class="trust-item">🇫🇷 Hébergé en France / Europe</div>
+        <div class="trust-item">✅ Conforme RGPD</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>© <span id="year"></span> LaBonnePaie – Tous droits réservés</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
