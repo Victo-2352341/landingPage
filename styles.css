@@ -157,3 +157,34 @@ blockquote {
   text-align: center;
   color: var(--muted);
 }
+
+/* VIDEO SECTION FIX */
+
+.video-section {
+  padding-top: 40px;
+}
+
+.video-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #020617;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
+}
+
+/* iframe (YouTube / Vimeo) */
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* video locale (mp4) */
+.video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
